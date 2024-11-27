@@ -25,7 +25,7 @@ const Head = () => {
       console.log(json);
     }
     getSearchSuggestions();
-  }, []);
+  }, [searchQuery]); 
 
 
   return (
